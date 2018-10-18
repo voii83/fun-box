@@ -1,0 +1,41 @@
+@mixin typeProductBlock($color, $color-text-dark, $color-text-light, $cat-url) {
+  & .product-top {
+    border-top: 4px solid $color;
+    border-right: 4px solid $color;
+
+    &-title {
+      color: $color-text-light;
+    }
+  }
+
+  & .product-center {
+    border-right: 4px solid $color;
+    border-bottom: 4px solid $color;
+    border-left: 4px solid $color;
+
+    &-name {
+      color: $color-text-dark;
+    }
+
+    &-name-addition {
+      color: $color-text-dark;
+    }
+
+    &-description {
+      color: $color-text-light;
+    }
+
+    &-img {
+      background: url($cat-url);
+    }
+
+  }
+
+  & .product-angle:after {
+    border-top: 4px solid $color;
+  }
+
+  & .product-center-weight {
+    background-color: $color;
+  }
+}
