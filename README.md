@@ -18,7 +18,7 @@
 
 ## Инструкция для страрта проекта:
 * Склонировать данный репозиторий
-> git clone https://github.com/fun-box.git
+> git clone https://github.com/voii83/fun-box.git
 
 * Запустить в терминале, для установки всех пакетов и зависимостей из файла package.json
  >npm install
